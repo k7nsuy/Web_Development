@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.top_container {
+  background-color: white;
+}
+
+.middle_container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom_container {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+}
