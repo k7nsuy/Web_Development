@@ -1,23 +1,100 @@
 body {
   margin: 0;
+  font-family: 'Zen Loop', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+hr {
+  margin-top: 50px;
+      border-color: rgba(0, 0, 0, 0.2);
+      border-width: 5px;
+      border-style: none;
+      border-top-style: dotted;
+      width: 6%;
+    }
+
+h1 {
+  line-height: 1;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  width: 10%;
+  margin: 50px auto 0 auto;
+}
+
+h3 {
+  color:  #66BFBF;
+}
+
+.small_title {
+  color:  #66BFBF;
+  font-size: 1.75rem;
+}
+
+.content {
+  line-height: 2;
+  font-size: 1.25rem;
 }
 
 .top_container {
+  padding-top: 50px;
+  text-align: center;
   background-color: white;
 }
 
 .middle_container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+  padding-left: 230px;
+  padding-top: 80px;
+  padding-right: 230px;
+  text-align: left;
+}
+
+.design_1 {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding-right: 50px;
+}
+
+.design_2 {
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding-left: 50px;
 }
 
 .bottom_container {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
+  padding-right: 230px;
+  padding-left: 230px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.top_cloud {
+  position: relative;
+  left:200px;
+}
+
+.bottom_cloud {
+  position: relative;
+  right: 200px;
+}
+
+.bottom_link {
+  height: 100px;
+  width: 100%;
+  background-color: #66BFBF;
+}
+
+a {
+
+  position: relative;
+  top: 50px;
+  padding: 0 30px;
+  color: #11999e;
 }
