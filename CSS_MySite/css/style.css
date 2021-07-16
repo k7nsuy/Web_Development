@@ -97,4 +97,9 @@ a {
   top: 50px;
   padding: 0 30px;
   color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
