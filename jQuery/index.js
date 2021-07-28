@@ -1,1 +1,3 @@
-$("h1").before("<h2>Hello2</h2>");
+$("button").on("click",function() {
+  $("h1").slideUp().slideDown().animate({opacity:0.5,margin:"20%"});
+});
