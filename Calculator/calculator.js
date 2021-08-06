@@ -47,6 +47,6 @@ app.post("/bmiCalculator",(req,res)=>{
     } else {
         res.send("Your BMI is " + BMI2 + ", so you are overweight.");
     }
-}
+  }
 
 });
